@@ -1,0 +1,7 @@
+---
+- name: Execute a shell command
+  hosts: all
+  become: true
+  tasks:
+    - name: Run the command
+      shell: echo 'hello world' > testing1.txt
