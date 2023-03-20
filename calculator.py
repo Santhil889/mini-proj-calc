@@ -23,7 +23,7 @@ def power(x, y):
 
 def calculator():
     while True:
-        print("Scientific Calculator Menu by Santhil")
+        print("Scientific Calculator Menu by santhil this time for real")
         print("1. Square Root")
         print("2. Factorial")
         print("3. Natural Logarithm")
