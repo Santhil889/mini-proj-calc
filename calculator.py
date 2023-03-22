@@ -40,7 +40,7 @@ def calculator():
             break
         try:
             if choice == '1':
-                x = float(input("Enter a number: "))
+                x = float(input("Enter a number : "))
                 result = square_root(x)
                 logging.info('[RESULT - SquareRoot] - {0}'.format(result))
                 print("Square root of {} is {}".format(x, result))
