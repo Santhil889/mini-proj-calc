@@ -5,7 +5,7 @@ logging.basicConfig(filename='calculator.log',format='%(asctime)s %(levelname)-8
 def square_root(x):
     if x < 0:
         logging.error('Value error is logged at sqrt.')
-        raise ValueError("Cannot Compute square root of a negative number")
+        raise ValueError("Cannot Compute square Root of a negative number")
     return math.sqrt(x)
 
 def factorial(x):
