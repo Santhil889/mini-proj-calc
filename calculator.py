@@ -34,7 +34,7 @@ def calculator():
         print("3. Natural Logarithm")
         print("4. Power Function")
         print("5. Quit")
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice : ")
         if choice == '5':
             logging.info('[Exit ] Program closed successfully by exec')
             break
